@@ -1,0 +1,25 @@
+{
+  "name": "react-native-segment",
+  "version": "1.0.0",
+  "description": "Native Wrapper around Segment's SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DispatcherInc/react-native-segment.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "ios",
+    "segment"
+  ],
+  "author": "Kevin Stumpf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DispatcherInc/react-native-segment/issues"
+  },
+  "homepage": "https://github.com/DispatcherInc/react-native-segment#readme"
+}
