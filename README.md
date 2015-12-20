@@ -8,6 +8,9 @@ This implementation automatically comes with Segment's Google Analytics client s
 ```js
 var segment = require('react-native-segment');
 
+var debug = true;
+segment.setupWithConfiguration('YOUR WRITE KEY', debug);
+
 segment.identify('myUserId', {firstName: 'name'});
 segment.track('Purchased Item', {itemId: 123});
 segment.screen('Viewed Login');
