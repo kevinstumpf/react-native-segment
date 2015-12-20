@@ -3,6 +3,18 @@ Native Wrapper around Segment's SDK
 
 This implementation automatically comes with Segment's Google Analytics client side integration.
 
+## Usage
+
+```js
+var segment = require('react-native-segment');
+
+segment.identify('myUserId', {firstName: 'name'});
+segment.track('Purchased Item', {itemId: 123});
+segment.screen('Viewed Login');
+segment.alias('myNewUserId');
+segment.reset();
+```
+
 ## Installation
 
 ```sh
