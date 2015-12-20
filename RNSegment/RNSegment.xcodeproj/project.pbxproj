@@ -276,9 +276,7 @@
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
 					"\"${PODS_ROOT}/Headers/Public/Analytics\"",
-					"$(SRCROOT)/../../React",
-					"$(SRCROOT)/../react-native/React",
-					"$(SRCROOT)/node_modules/react-native/React",
+					"$(SRCROOT)/../../react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -294,9 +292,7 @@
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
 					"\"${PODS_ROOT}/Headers/Public/Analytics\"",
-					"$(SRCROOT)/../../React",
-					"$(SRCROOT)/../react-native/React",
-					"$(SRCROOT)/node_modules/react-native/React",
+					"$(SRCROOT)/../../react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
