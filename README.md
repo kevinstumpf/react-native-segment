@@ -37,3 +37,4 @@ pod install
 ```sh
 "$(SRCROOT)/../node_modules/react-native-segment/Pods/GoogleAnalytics/Libraries"
 ```
+- Add the following Linked Frameworks and Libraries to your project: "CoreData.framework", "CFNetwork.framework", "libsqlite3.tbd", "libz.tbd"
