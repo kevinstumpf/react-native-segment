@@ -1,6 +1,6 @@
 {
   "name": "react-native-segment",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Native Wrapper around Segment's SDK",
   "main": "index.js",
   "scripts": {
